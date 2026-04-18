@@ -58,7 +58,14 @@
         };
     };
 
-    combos { compatible = "zmk,combos"; };
+    combos {
+        compatible = "zmk,combos";
+
+        tm {
+            bindings = <&kp LGUI>;
+            key-positions = <36 39>;
+        };
+    };
 
     //
 
