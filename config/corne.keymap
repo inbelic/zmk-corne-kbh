@@ -110,10 +110,10 @@
             //                    | GUI |     | SPC |   | ENT |     | ALT |
 
             bindings = <
-&trans  &kp EXCL    &kp AT  &kp HASH  &kp DLLR          &kp PRCNT    &kp CARET  &kp AMPS   &kp ASTRK  &kp LEFT_PARENTHESIS  &kp RPAR  &trans
-&trans  &none       &none   &none     &kp SINGLE_QUOTE  &kp GRAVE    &kp MINUS  &kp EQUAL  &kp LBKT   &kp RBKT              &kp BSLH  &trans
-&trans  &kp DELETE  &none   &none     &none             &kp TILDE    &kp UNDER  &kp PLUS   &kp LBRC   &kp RBRC              &kp PIPE  &trans
-                            &trans    &trans            &trans       &trans     &trans     &trans
+&none  &none    &kp PAGE_UP  &kp UP    &kp PAGE_DOWN  &none     &none   &kp GRAVE             &kp LEFT_BRACE  &kp RIGHT_BRACE  &none                  &none
+&none  &none    &kp LEFT     &kp DOWN  &kp RIGHT      &none     &none   &kp LEFT_PARENTHESIS  &kp LBKT        &kp RBKT         &none                  &none
+&none  &kp TAB  &none        &none     &none          &none     &none   &none                 &none           &none            &kp RIGHT_PARENTHESIS  &none
+                             &trans    &trans         &trans    &trans  &trans                &trans
             >;
         };
 
