@@ -137,8 +137,8 @@
             display-name = "infrequent alphabet";
             bindings = <
 &none  &none  &kp QUESTION  &kp Q           &kp J      &none            &none    &kp V        &kp Z   &kp DOT  &none  &none
-&none  &none  &kp X         &kp M           &kp P      &none            &none    &kp H        &kp T   &kp N    &none  &none
-&none  &kp K  &none         &none           &none      &none            &none    &none        &none   &none    &kp S  &none
+&none  &none  &kp X         &kp M           &kp P      &none            &none    &kp G        &kp L   &kp B    &none  &none
+&none  &kp K  &none         &none           &none      &none            &none    &none        &none   &none    &kp W  &none
                             &kp LEFT_SHIFT  &lt 1 ESC  &kp BACKSPACE    &kp RET  &lt 2 SPACE  &trans
             >;
         };
