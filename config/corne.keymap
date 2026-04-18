@@ -62,7 +62,7 @@
         compatible = "zmk,combos";
 
         tm {
-            bindings = <&kp LGUI>;
+            bindings = <&mt LGUI LGUI>;
             key-positions = <36 39>;
         };
     };
