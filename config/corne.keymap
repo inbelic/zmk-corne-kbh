@@ -83,8 +83,8 @@
             >;
         };
 
-        NAV {
-            display-name = "NavNum";
+        NUM {
+            display-name = "numbers";
 
             // -----------------------------------------------------------------------------------------
             // |  TAB |  1  |  2  |  3  |  4  |  5  |   |  6  |  7  |  8  |  9  |  0  | BKSP |
@@ -93,15 +93,15 @@
             // | GUI | CTRL | SHFT | LWR | SPC |   | ENT | RSE  | BKSP | ALT | ESC |
 
             bindings = <
-&none  &none  &none     &none         &none            &none            &kp ASTERISK  &kp N7  &kp N8         &kp N9  &kp PLUS    &none
-&none  &none  &trans    &kp UP_ARROW  &kp TAB          &kp PAGE_UP      &kp SLASH     &kp N4  &kp N5         &kp N6  &kp MINUS   &none
-&none  &none  &kp LEFT  &kp DOWN      &kp RIGHT_ARROW  &kp PAGE_DOWN    &kp N0        &kp N1  &kp N2         &kp N3  &kp PERIOD  &none
-                        &trans        &trans           &trans           &trans        &trans  &kp RIGHT_ALT
+&none  &none   &kp PLUS  &kp MINUS  &kp N0  &none     &none   &kp N9  &kp ASTRK  &kp SLASH  &none   &none
+&none  &none   &kp N2    &kp N3     &kp N4  &none     &none   &kp N5  &kp N6     &kp N7     &none   &none
+&none  &kp N1  &none     &none      &none   &none     &none   &none   &none      &none      &kp N8  &none
+                         &trans     &trans  &trans    &trans  &trans  &trans
             >;
         };
 
         SYM {
-            display-name = "Symbols";
+            display-name = "sympolics";
 
             // -----------------------------------------------------------------------------------------
             // |  TAB |  !  |  @  |  #  |  $  |  %  |   |  ^  |  &  |  *  |  (  |  )  | BKSP |
@@ -127,7 +127,7 @@
             >;
         };
 
-        INFREQ {
+        IFRQ {
             display-name = "infrequent alphabet";
             bindings = <
 &none  &none  &kp LS(FSLH)  &kp Q           &kp J      &none            &none    &kp V        &kp Z   &kp DOT  &none  &none
