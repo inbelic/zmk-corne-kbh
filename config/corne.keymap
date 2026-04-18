@@ -81,9 +81,9 @@
             // | GUI | CTRL | SHFT | LWR | SPC |   | ENT | RSE  | BKSP | ALT | ESC |
 
             bindings = <
-&none  &kp Q  &kp W  &kp E           &kp R      &kp T            &kp Y    &kp U        &kp I              &kp O    &kp P         &none
-&none  &kp A  &kp S  &kp D           &kp F      &kp G            &kp H    &kp J        &kp K              &kp L    &kp SEMI      &none
-&none  &kp Z  &kp X  &kp C           &kp V      &kp B            &kp N    &kp M        &kp COMMA          &kp DOT  &kp LEFT_GUI  &none
+&none  &none  &kp W  &kp E           &kp R      &none            &none    &kp U        &kp I              &kp O  &none  &none
+&none  &kp A  &kp S  &kp D           &kp F      &none            &kp H    &kp J        &kp K              &kp L  &none  &none
+&none  &none  &none  &none           &none      &none            &none    &none        &none              &none  &none  &none
                      &kp LEFT_SHIFT  &lt 1 ESC  &kp BACKSPACE    &kp RET  &lt 2 SPACE  &kp RIGHT_CONTROL
             >;
         };
@@ -99,8 +99,8 @@
 
             bindings = <
 &none  &none  &none     &none         &none            &none            &kp ASTERISK  &kp N7  &kp N8         &kp N9  &kp PLUS    &none
-&none  &kp I  &trans    &kp UP_ARROW  &kp TAB          &kp PAGE_UP      &kp SLASH     &kp N4  &kp N5         &kp N6  &kp MINUS   &none
-&none  &kp J  &kp LEFT  &kp DOWN      &kp RIGHT_ARROW  &kp PAGE_DOWN    &kp N0        &kp N1  &kp N2         &kp N3  &kp PERIOD  &none
+&none  &none  &trans    &kp UP_ARROW  &kp TAB          &kp PAGE_UP      &kp SLASH     &kp N4  &kp N5         &kp N6  &kp MINUS   &none
+&none  &none  &kp LEFT  &kp DOWN      &kp RIGHT_ARROW  &kp PAGE_DOWN    &kp N0        &kp N1  &kp N2         &kp N3  &kp PERIOD  &none
                         &trans        &trans           &trans           &trans        &trans  &kp RIGHT_ALT
             >;
         };
