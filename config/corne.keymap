@@ -81,10 +81,10 @@
             // | GUI | CTRL | SHFT | LWR | SPC |   | ENT | RSE  | BKSP | ALT | ESC |
 
             bindings = <
-&none  &none  &kp W  &kp E           &kp R      &none            &none    &kp U        &kp I              &kp O  &none  &none
-&none  &kp A  &kp S  &kp D           &kp F      &none            &kp H    &kp J        &kp K              &kp L  &none  &none
-&none  &none  &none  &none           &none      &none            &none    &none        &none              &none  &none  &none
-                     &kp LEFT_SHIFT  &lt 1 ESC  &kp BACKSPACE    &kp RET  &lt 2 SPACE  &kp RIGHT_CONTROL
+&none  &none  &kp Y  &kp F           &kp I      &none            &none    &kp D        &kp C  &kp R  &none  &none
+&none  &kp A  &kp O  &kp E           &kp U      &none            &none    &kp H        &kp T  &kp N  &kp S  &none
+&none  &none  &none  &none           &none      &none            &none    &none        &none  &none  &none  &none
+                     &kp LEFT_SHIFT  &lt 1 ESC  &kp BACKSPACE    &kp RET  &lt 2 SPACE  &none
             >;
         };
 
