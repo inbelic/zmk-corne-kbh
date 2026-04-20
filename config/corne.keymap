@@ -58,14 +58,7 @@
         };
     };
 
-    combos {
-        compatible = "zmk,combos";
-
-        tm {
-            bindings = <&mt LGUI LGUI>;
-            key-positions = <3 8>;
-        };
-    };
+    combos { compatible = "zmk,combos"; };
 
     //
 
@@ -82,10 +75,10 @@
             // | GUI | CTRL | SHFT | LWR | SPC |   | ENT | RSE  | BKSP | ALT | ESC |
 
             bindings = <
-&none  &none  &kp Y  &kp F           &kp I                &none        &none        &kp D   &kp C    &kp R  &none  &none
-&none  &none  &kp O  &kp E           &kp U                &none        &none        &kp H   &kp T    &kp N  &none  &none
-&none  &kp A  &none  &none           &none                &none        &none        &none   &none    &none  &kp S  &none
-                     &kp LEFT_SHIFT  &mt LCTRL BACKSPACE  &lt 1 ESC    &lt 2 SPACE  &alpha  &kp RET
+&none  &none  &kp Y  &kp F           &kp I          &none              &none        &kp D   &kp C         &kp R  &none  &none
+&none  &none  &kp O  &kp E           &kp U          &none              &none        &kp H   &kp T         &kp N  &none  &none
+&none  &kp A  &none  &none           &none          &none              &none        &none   &none         &none  &kp S  &none
+                     &kp LEFT_SHIFT  &mt LCTRL ESC  &lt 1 BACKSPACE    &lt 2 ENTER  &alpha  &kp LEFT_GUI
             >;
         };
 
@@ -136,10 +129,10 @@
         IFRQ {
             display-name = "infrequent alphabet";
             bindings = <
-&none  &none  &kp COMMA  &kp Q   &kp J   &none     &none   &kp V         &kp Z   &kp DOT  &none  &none
-&none  &none  &kp X      &kp M   &kp P   &none     &none   &kp G         &kp L   &kp B    &none  &none
-&none  &kp K  &none      &none   &none   &none     &none   &none         &none   &none    &kp W  &none
-                         &trans  &trans  &trans    &trans  &kp QUESTION  &trans
+&none  &none  &kp COMMA  &kp Q   &kp J   &none     &none   &kp V      &kp Z   &kp DOT  &none  &none
+&none  &none  &kp X      &kp M   &kp P   &none     &none   &kp G      &kp L   &kp B    &none  &none
+&none  &kp K  &none      &none   &none   &none     &none   &none      &none   &none    &kp W  &none
+                         &trans  &trans  &trans    &trans  &kp SPACE  &trans
             >;
         };
     };
