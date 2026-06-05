@@ -82,8 +82,8 @@
             key-positions = <7 19>;
         };
 
-        v {
-            bindings = <&kp V>;
+        p {
+            bindings = <&kp P>;
             key-positions = <17 16>;
         };
 
