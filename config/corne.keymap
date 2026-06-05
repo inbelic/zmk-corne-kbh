@@ -52,18 +52,18 @@
     combos {
         compatible = "zmk,combos";
 
-        q {
-            bindings = <&kp Q>;
+        w {
+            bindings = <&kp W>;
             key-positions = <2 14>;
         };
 
-        k {
-            bindings = <&kp K>;
+        b {
+            bindings = <&kp B>;
             key-positions = <21 9>;
         };
 
-        w {
-            bindings = <&kp W>;
+        m {
+            bindings = <&kp M>;
             key-positions = <3 15>;
         };
 
@@ -72,14 +72,24 @@
             key-positions = <4 16>;
         };
 
-        j {
-            bindings = <&kp J>;
+        l {
+            bindings = <&kp L>;
             key-positions = <8 20>;
         };
 
-        z {
-            bindings = <&kp Z>;
+        g {
+            bindings = <&kp G>;
             key-positions = <7 19>;
+        };
+
+        v {
+            bindings = <&kp V>;
+            key-positions = <17 16>;
+        };
+
+        j {
+            bindings = <&kp J>;
+            key-positions = <18 19>;
         };
     };
 
@@ -99,8 +109,8 @@
 
             bindings = <
 &none  &none  &kp Y  &kp F           &kp I      &none            &none               &kp D        &kp C             &kp R  &none  &none
-&none  &none  &kp O  &kp E           &kp U      &none            &none               &kp H        &kp T             &kp N  &none  &none
-&none  &kp A  &kp X  &kp M           &kp P      &none            &none               &kp G        &kp L             &kp B  &kp S  &none
+&none  &none  &kp O  &kp E           &kp U      &kp Q            &kp K               &kp H        &kp T             &kp N  &none  &none
+&kp X  &kp A  &none  &none           &kp V      &none            &none               &none        &kp J             &none  &kp S  &kp Z
                      &kp LEFT_SHIFT  &lt 1 ESC  &kp BACKSPACE    &mt LEFT_WIN ENTER  &lt 2 SPACE  &kp LEFT_CONTROL
             >;
         };
@@ -132,10 +142,10 @@
             //                    | GUI |     | SPC |   | ENT |     | ALT |
 
             bindings = <
-&none  &none    &kp PAGE_UP  &kp UP          &kp PAGE_DOWN  &none        &none  &none   &none  &none  &none  &none
-&none  &none    &kp LEFT     &kp DOWN        &kp RIGHT      &none        &none  &none   &none  &none  &none  &none
-&none  &kp TAB  &none        &none           &none          &none        &none  &none   &none  &none  &none  &none
-                             &kp LEFT_SHIFT  &trans         &kp LCTRL    &none  &trans  &none
+&none  &none    &kp PAGE_UP  &kp UP    &kp PAGE_DOWN  &none           &none  &kp ENTER     &kp I           &kp J             &none  &none
+&none  &none    &kp LEFT     &kp DOWN  &kp RIGHT      &none           &none  &kp LEFT_ALT  &kp LEFT_SHIFT  &kp LEFT_CONTROL  &none  &none
+&none  &kp TAB  &none        &none     &none          &none           &none  &none         &none           &none             &none  &none
+                             &none     &trans         &kp LEFT_GUI    &none  &trans        &none
             >;
         };
 
