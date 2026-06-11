@@ -54,12 +54,12 @@
 
         w {
             bindings = <&kp W>;
-            key-positions = <2 14>;
+            key-positions = <4 16>;
         };
 
         b {
             bindings = <&kp B>;
-            key-positions = <21 9>;
+            key-positions = <19 20>;
         };
 
         m {
@@ -69,12 +69,12 @@
 
         v {
             bindings = <&kp V>;
-            key-positions = <4 16>;
+            key-positions = <3 4>;
         };
 
         l {
             bindings = <&kp L>;
-            key-positions = <8 20>;
+            key-positions = <8 7>;
         };
 
         g {
@@ -84,12 +84,12 @@
 
         q {
             bindings = <&kp Q>;
-            key-positions = <3 4>;
+            key-positions = <2 14>;
         };
 
         k {
             bindings = <&kp K>;
-            key-positions = <8 7>;
+            key-positions = <8 20>;
         };
 
         p {
@@ -99,7 +99,7 @@
 
         j {
             bindings = <&kp J>;
-            key-positions = <19 20>;
+            key-positions = <9 21>;
         };
     };
 
