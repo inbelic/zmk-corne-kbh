@@ -162,10 +162,10 @@
         SYM {
             display-name = "symbols";
             bindings = <
-&none  &none  &none             &kp GRAVE      &none              &none             &none           &none       &kp SINGLE_QUOTE  &none     &none  &none
-&none  &none  &kp LEFT_BRACKET  &kp BACKSLASH  &kp RIGHT_BRACKET  &none             &none           &kp DELETE  &kp SLASH         &kp SEMI  &none  &none
-&none  &none  &none             &none          &none              &none             &none           &none       &none             &none     &none  &none
-                                &none          &trans             &kp LEFT_SHIFT    &kp LEFT_SHIFT  &trans      &none
+&none  &none  &none             &kp GRAVE      &none              &none    &none  &none           &kp SINGLE_QUOTE  &none     &none  &none
+&none  &none  &kp LEFT_BRACKET  &kp BACKSLASH  &kp RIGHT_BRACKET  &none    &none  &kp LEFT_SHIFT  &kp SLASH         &kp SEMI  &none  &none
+&none  &none  &none             &none          &none              &none    &none  &none           &none             &none     &none  &none
+                                &none          &trans             &none    &none  &trans          &none
             >;
         };
     };
