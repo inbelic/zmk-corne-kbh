@@ -101,6 +101,16 @@
             bindings = <&kp J>;
             key-positions = <9 21>;
         };
+
+        x {
+            bindings = <&kp X>;
+            key-positions = <16 15 3 4>;
+        };
+
+        z {
+            bindings = <&kp Z>;
+            key-positions = <7 19 20 8>;
+        };
     };
 
     //
